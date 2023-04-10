@@ -1937,3 +1937,31 @@ Stack trace:
 [10-Apr-2023 05:49:44 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in D:\AFPAR\Pix\src\views\admin\editArticle.php on line 54
 [10-Apr-2023 05:50:50 UTC] PHP Warning:  Undefined variable $fournisseurs in D:\AFPAR\Pix\src\views\admin\editArticle.php on line 54
 [10-Apr-2023 05:50:50 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in D:\AFPAR\Pix\src\views\admin\editArticle.php on line 54
+[10-Apr-2023 07:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\AFPAR\Pix\src\app\Model.php:56
+Stack trace:
+#0 D:\AFPAR\Pix\src\app\Model.php(109): Surricate\Model->getAll(NULL, Array)
+#1 D:\AFPAR\Pix\src\models\Article.php(71): Surricate\Model->setSearchAndOffset('description_art...', 'reference_artic...', NULL, NULL, NULL, Array)
+#2 D:\AFPAR\Pix\src\routes\Pages.php(16): Surricate\Article->getAllArticles()
+#3 [internal function]: Surricate\Pages->index()
+#4 D:\AFPAR\Pix\src\app\Router.php(34): call_user_func_array(Array, Array)
+#5 D:\AFPAR\Pix\src\app\Router.php(8): Surricate\Router::setRedirection()
+#6 D:\AFPAR\Pix\autoload\Autoload.php(29): Surricate\Router::init()
+#7 D:\AFPAR\Pix\index.php(51): Surricate\Autoload::init()
+#8 {main}
+  thrown in D:\AFPAR\Pix\src\app\Model.php on line 56
+[10-Apr-2023 07:37:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in D:\AFPAR\Pix\src\app\Model.php:56
+Stack trace:
+#0 D:\AFPAR\Pix\src\app\Model.php(109): Surricate\Model->getAll(NULL, Array)
+#1 D:\AFPAR\Pix\src\models\Article.php(71): Surricate\Model->setSearchAndOffset('description_art...', 'reference_artic...', NULL, NULL, NULL, Array)
+#2 D:\AFPAR\Pix\src\routes\Pages.php(16): Surricate\Article->getAllArticles()
+#3 [internal function]: Surricate\Pages->index()
+#4 D:\AFPAR\Pix\src\app\Router.php(34): call_user_func_array(Array, Array)
+#5 D:\AFPAR\Pix\src\app\Router.php(8): Surricate\Router::setRedirection()
+#6 D:\AFPAR\Pix\autoload\Autoload.php(29): Surricate\Router::init()
+#7 D:\AFPAR\Pix\index.php(51): Surricate\Autoload::init()
+#8 {main}
+  thrown in D:\AFPAR\Pix\src\app\Model.php on line 56
+[10-Apr-2023 07:38:42 UTC] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in D:\AFPAR\Pix\src\configs\Security.php on line 108
+[10-Apr-2023 07:38:42 UTC] PHP Warning:  Undefined variable $password in D:\AFPAR\Pix\src\models\Utilisateur.php on line 142
+[10-Apr-2023 07:38:42 UTC] PHP Warning:  Undefined array key "message" in D:\AFPAR\Pix\src\views\pages\login.php on line 19
+[10-Apr-2023 07:38:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in D:\AFPAR\Pix\src\views\pages\login.php on line 19

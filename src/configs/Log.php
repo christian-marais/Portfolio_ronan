@@ -3,7 +3,7 @@
 
     abstract class Log{
         public static function init(){
-            self::setPhpErrorDisplay($_ENV['ENV_MODE']);
+            self::setPhpErrorDisplay($_ENV['MY_ENV_MODE']);
             self::error();
         }
 

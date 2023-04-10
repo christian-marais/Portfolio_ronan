@@ -5,7 +5,7 @@
         private static $env;
         
         public static function setEnv(){
-            self::$env = $_ENV['ENV_MODE'];
+            self::$env = $_ENV['MY_ENV_MODE'];
             self::setDBErrorMode(self::$env);
         }
 

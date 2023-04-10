@@ -23147,4 +23147,219 @@ param_type=1
 Params:  0
 ----------------------------[2023-04-10 05:58:25]  SQL: [30] SELECT DISTINCT * FROM article
 Params:  0
+----------------------------[2023-04-10 07:37:50]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 07:37:50]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 07:38:30]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 07:38:30]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 07:38:42]  SQL: [47] UPDATE user SET token = ?  WHERE email_user = ?
+Sent SQL: [103] UPDATE user SET token = '57e8ef64b45d4c0bdfafdc8ef948469b6b7c1027'  WHERE email_user = 'admin@admin.fr'
+Params:  2
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+Key: Position #1:
+paramno=1
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 07:38:43]  SQL: [38] SELECT * FROM role WHERE code_role = ?
+Sent SQL: [44] SELECT * FROM role WHERE code_role = 'admin'
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 07:38:55]  SQL: [38] SELECT * FROM role WHERE code_role = ?
+Sent SQL: [44] SELECT * FROM role WHERE code_role = 'admin'
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 07:38:55]  SQL: [18] call get_centre(?)
+Sent SQL: [20] call get_centre('7')
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 07:38:55]  SQL: [29] SELECT DISTINCT * FROM groupe
+Params:  0
+----------------------------[2023-04-10 07:38:55]  SQL: [29] SELECT DISTINCT * FROM groupe
+Params:  0
+----------------------------[2023-04-10 07:38:56]  SQL: [18] call get_centre(?)
+Sent SQL: [20] call get_centre('7')
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 07:38:56]  SQL: [29] SELECT DISTINCT * FROM cursus
+Params:  0
+----------------------------[2023-04-10 07:38:56]  SQL: [29] SELECT DISTINCT * FROM cursus
+Params:  0
+----------------------------[2023-04-10 07:38:56]  SQL: [18] call get_centre(?)
+Sent SQL: [20] call get_centre('7')
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 07:38:56]  SQL: [18] call get_centre(?)
+Sent SQL: [20] call get_centre('7')
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 07:38:56]  SQL: [49] SELECT DISTINCT * FROM user LIMIT :page0, :page1 
+Sent SQL: [40] SELECT DISTINCT * FROM user LIMIT 0, 10 
+Params:  2
+Key: Name: [6] :page0
+paramno=-1
+name=[6] ":page0"
+is_param=1
+param_type=1
+Key: Name: [6] :page1
+paramno=-1
+name=[6] ":page1"
+is_param=1
+param_type=1
+----------------------------[2023-04-10 07:38:56]  SQL: [49] SELECT DISTINCT * FROM user LIMIT :page0, :page1 
+Sent SQL: [40] SELECT DISTINCT * FROM user LIMIT 0, 10 
+Params:  2
+Key: Name: [6] :page0
+paramno=-1
+name=[6] ":page0"
+is_param=1
+param_type=1
+Key: Name: [6] :page1
+paramno=-1
+name=[6] ":page1"
+is_param=1
+param_type=1
+----------------------------[2023-04-10 10:09:27]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:09:27]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:09:28]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:09:28]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:10:18]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:10:19]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:10:24]  SQL: [38] SELECT * FROM role WHERE code_role = ?
+Sent SQL: [44] SELECT * FROM role WHERE code_role = 'admin'
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 10:10:24]  SQL: [38] SELECT DISTINCT * FROM famille_article
+Params:  0
+----------------------------[2023-04-10 10:10:24]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:10:24]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:10:24]  SQL: [34] SELECT DISTINCT * FROM fournisseur
+Params:  0
+----------------------------[2023-04-10 10:10:24]  SQL: [34] SELECT DISTINCT * FROM fournisseur
+Params:  0
+----------------------------[2023-04-10 10:10:24]  SQL: [38] SELECT DISTINCT * FROM famille_article
+Params:  0
+----------------------------[2023-04-10 10:10:25]  SQL: [52] SELECT DISTINCT * FROM article LIMIT :page0, :page1 
+Sent SQL: [43] SELECT DISTINCT * FROM article LIMIT 0, 10 
+Params:  2
+Key: Name: [6] :page0
+paramno=-1
+name=[6] ":page0"
+is_param=1
+param_type=1
+Key: Name: [6] :page1
+paramno=-1
+name=[6] ":page1"
+is_param=1
+param_type=1
+----------------------------[2023-04-10 10:10:25]  SQL: [52] SELECT DISTINCT * FROM article LIMIT :page0, :page1 
+Sent SQL: [43] SELECT DISTINCT * FROM article LIMIT 0, 10 
+Params:  2
+Key: Name: [6] :page0
+paramno=-1
+name=[6] ":page0"
+is_param=1
+param_type=1
+Key: Name: [6] :page1
+paramno=-1
+name=[6] ":page1"
+is_param=1
+param_type=1
+----------------------------[2023-04-10 10:10:41]  SQL: [38] SELECT * FROM role WHERE code_role = ?
+Sent SQL: [44] SELECT * FROM role WHERE code_role = 'admin'
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
+----------------------------[2023-04-10 10:10:41]  SQL: [38] SELECT DISTINCT * FROM famille_article
+Params:  0
+----------------------------[2023-04-10 10:10:41]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:10:41]  SQL: [30] SELECT DISTINCT * FROM article
+Params:  0
+----------------------------[2023-04-10 10:10:41]  SQL: [34] SELECT DISTINCT * FROM fournisseur
+Params:  0
+----------------------------[2023-04-10 10:10:41]  SQL: [34] SELECT DISTINCT * FROM fournisseur
+Params:  0
+----------------------------[2023-04-10 10:10:41]  SQL: [38] SELECT DISTINCT * FROM famille_article
+Params:  0
+----------------------------[2023-04-10 10:10:41]  SQL: [52] SELECT DISTINCT * FROM article LIMIT :page0, :page1 
+Sent SQL: [43] SELECT DISTINCT * FROM article LIMIT 0, 10 
+Params:  2
+Key: Name: [6] :page0
+paramno=-1
+name=[6] ":page0"
+is_param=1
+param_type=1
+Key: Name: [6] :page1
+paramno=-1
+name=[6] ":page1"
+is_param=1
+param_type=1
+----------------------------[2023-04-10 10:10:42]  SQL: [52] SELECT DISTINCT * FROM article LIMIT :page0, :page1 
+Sent SQL: [43] SELECT DISTINCT * FROM article LIMIT 0, 10 
+Params:  2
+Key: Name: [6] :page0
+paramno=-1
+name=[6] ":page0"
+is_param=1
+param_type=1
+Key: Name: [6] :page1
+paramno=-1
+name=[6] ":page1"
+is_param=1
+param_type=1
+----------------------------[2023-04-10 10:10:46]  SQL: [38] SELECT * FROM role WHERE code_role = ?
+Sent SQL: [44] SELECT * FROM role WHERE code_role = 'admin'
+Params:  1
+Key: Position #0:
+paramno=0
+name=[0] ""
+is_param=1
+param_type=2
 ----------------------------
