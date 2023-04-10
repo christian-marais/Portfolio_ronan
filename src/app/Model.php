@@ -3,7 +3,6 @@
  namespace Surricate;
  use \PDO;
  use \Exception;
- use \PDOStatement;
 
 abstract class Model extends DB{
     
