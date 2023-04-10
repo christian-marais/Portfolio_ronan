@@ -1,0 +1,8 @@
+[06-Apr-2023 06:41:40 UTC] PHP Fatal error:  Uncaught Error: Class "Surricate\Utilisateur" not found in D:\AFPAR\Surricate\src\configs\Security.php:121
+Stack trace:
+#0 D:\AFPAR\Surricate\src\app\Router.php(15): Surricate\Security::getDbToken()
+#1 D:\AFPAR\Surricate\src\app\Router.php(8): Surricate\Router::setRedirection()
+#2 D:\AFPAR\Surricate\autoload\Autoload.php(29): Surricate\Router::init()
+#3 D:\AFPAR\Surricate\index.php(52): Surricate\Autoload::init()
+#4 {main}
+  thrown in D:\AFPAR\Surricate\src\configs\Security.php on line 121

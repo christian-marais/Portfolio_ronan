@@ -1,0 +1,17 @@
+{
+    "name": "chris/surricate",
+    "autoload": {
+        "psr-4": {
+            "Chris\\Surricate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "christian marais",
+            "email": "christimarais@hotmail.fr"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
