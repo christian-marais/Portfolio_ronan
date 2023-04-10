@@ -56,8 +56,8 @@ class Autoload{
     }
 
     private static function loadEnv($dir=__DIR__){
-        $doteEnv= Dotenv::createMutable($dir);
-        $doteEnv->safeload();
+        $doteEnv= Dotenv::createImmutable($dir);
+        $doteEnv->safeLoad();
     }
    
 }
