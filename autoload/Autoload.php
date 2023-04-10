@@ -17,7 +17,7 @@ class Autoload{
     public static function init(){
         require_once('vendor/autoload.php');
         define("ROOT",str_replace('index.php','',$_SERVER['SCRIPT_FILENAME']));
-        self::loadEnv(ROOT);
+        //self::loadEnv(ROOT);
         
         spl_autoload_register(function($class){
             self::namespaceToClass($class);
