@@ -25,7 +25,7 @@ abstract class Model extends DB{
             $this->connexion=null;
             try{
                 parent::setEnv();
-                self::$pdo = new PDO('mysql:local='.$this->host.'; dbname=c1865308c_aati', "c1865308c_christian","@87Toopac87",array(PDO::ATTR_PERSISTENT    => true));
+                self::$pdo = new PDO('mysql:local='.$this->host.'; dbname='.$_ENV['MY_BDD_NAME'], $_ENV['MY_USERNAME'],$_ENV['MY_PASSWORD'],array(PDO::ATTR_PERSISTENT    => true));
                 self::$pdo->setAttribute(PDO::ATTR_ERRMODE,ERROR_MODE);
                 self::$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
                 self::$pdo->exec('set names utf8');
